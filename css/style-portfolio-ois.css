@@ -1,0 +1,364 @@
+body{
+	font-family: "arial";
+	height: 100%;
+	background-color: #e5e5e5;
+	overflow-x: hidden;
+}
+
+#cont1{
+	display: none;
+}
+@media screen and (max-width: 700px){
+	body{
+		background-color: white;
+	}
+	#container{
+		height:8px;
+	}
+	#footer{
+		width: 100%;
+		height: 30px;
+		margin: 60 auto 0 0px;
+	}
+	#footer-cont{
+		width: 200px;
+		height: 100%;	
+		margin: 5px auto 0 auto;
+		bottom: 0;
+		padding-top: 2px;
+	}
+	#footer p{
+		color: #4a4a4a;
+		margin-top: 0px;
+		font-weight: 400;
+		text-align: center;
+	}
+	#portfolio{		
+		font-weight: bold;
+	}
+	#content{
+		width: 80%;	
+		height: 5px;		 
+		margin: 0px auto 0 auto;
+	}
+	#content h1{
+		text-align: left;
+		font-size: 25;
+		margin-top: -25px;
+		font-weight: bold;
+		margin-bottom: 35px;
+	}	
+	#content h2{
+		position: relative;
+		text-align: left;
+		line-height: 30px;
+		font-size: 25;
+		margin-top: -65px;
+		margin-left: 120px;
+		font-weight: 100;
+		color: #666666;
+	}	
+	#content h3{
+		position: relative;
+		text-align: left;
+		line-height: 35px;
+		font-size: 18;
+		margin-top: -11px;
+		font-weight: normal;
+		color: #666666;
+	}
+	.wframe{
+		width: 100%;
+		background-color: white;
+		border-radius: 5px; 
+		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		margin: 0px auto 25px auto;
+		position: relative;
+	}
+	.wframe img{
+		position: relative;
+		border-radius: 5px; 
+		width: 94.5%;
+		margin: 3% auto 3% auto;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #666666;
+	}
+}
+@media screen and (min-width: 700.01px) and (max-width: 999px){
+	#container{
+		height:1165px;
+	}
+	#footer{
+		width: 100%;
+		background-color: #e5e5e5;
+		height: 40px;
+		margin: 62 auto 0 0px;
+	}
+	#footer-cont{
+		width: 400px;
+		height: 100%;	
+		margin: 5px auto 0 auto;
+		bottom: 0;
+		padding-top: 2px;
+	}
+	#footer p{
+		color: #4a4a4a;
+		margin-top: 10px;
+		font-weight: 400;
+		text-align: center;
+	}
+	#portfolio{
+		color: #666666;
+	}
+	#content{
+		width: 670px;	
+		height: 240px;		 
+		margin: 0 auto 0 auto;
+	}
+	#content h1{
+		text-align: left;
+		font-size: 30;
+		margin-top: 40px;
+		font-weight: bold;
+		margin-left: 10px;
+	}	
+	#content h2{
+		position: relative;
+		text-align: left;
+		line-height: 30px;
+		max-width: 350px;
+		font-size: 30;
+		margin-top: -52px;
+		font-weight: 100;
+		color: #666666;
+		margin-left: 153px;
+	}	
+	#content h3{
+		position: relative;
+		text-align: justify;
+		max-width: 350px;
+		font-size: 18;
+		margin-top: -9px;
+		font-weight: normal;
+		color: #666666;
+		margin-left: 10px;
+	}
+	.wframe{
+		position: relative;
+		width: 650px;
+		overflow: auto;
+		background-color: white;
+		border-radius: 5px; 
+		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		margin: 30px auto 0 auto;
+	}
+	.wframe img{
+		position: relative;
+		float: left;
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 5px; 
+		width: 610px;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #666666;
+	}
+}
+@media screen and (min-width: 999.01px) and (max-width: 1199px){
+	#container{
+		height:1457px;
+	}
+	#footer{
+		width: 100%;
+		background-color: #e5e5e5;
+		height: 40px;
+		margin: 63 auto 0 0px;
+	}
+	#footer-cont{
+		width: 300px;
+		height: 100%;	
+		margin: 5px auto 0 auto;
+		bottom: 0;
+		padding-top: 2px;
+	}
+	#footer p{
+		color: #4a4a4a;
+		margin-top: 10px;
+		font-weight: 400;
+		text-align: center;
+	}
+	#portfolio{
+		color: #666666;
+	}
+	#content{
+		position: relative;
+		width: 860px;	
+		height: 130px;		 
+		margin: 0 auto 0 auto;
+	}
+	#content h1{
+		text-align: left;
+		font-size: 60;
+		margin-top: 80px;
+		font-weight: bold;
+		margin-left: 35px;
+	}	
+	#content h2{
+		position: relative;
+		text-align: left;
+		line-height: 35px;
+		max-width: 450px;
+		font-size: 60;
+		margin-top: -92px;
+		margin-left: 315px;
+		font-weight: 100;
+		color: #666666;
+		font-weight: normal;
+		white-space: nowrap;
+		
+	}	
+	#content h3{
+		position: relative;
+		text-align: justify;
+		line-height: 35px;
+		max-width: 450px;
+		font-size: 23;
+		margin-top: -10px;
+		margin-left: 36px;
+		font-weight: normal;
+		color: #666666;
+	}
+	.wframe{
+		position: relative;
+		width: 800px;
+		overflow: auto;
+		background-color: white;
+		border-radius: 5px; 
+		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		margin: 40px auto 0 auto;
+	}
+	.wframe img{
+		position: relative;
+		float: left;
+		margin-left: 25px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border-radius: 5px; 
+		width: 750px;
+	}
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #666666;
+	}
+}
+@media screen and (min-width: 1199.01px){
+	#container{
+		height:1643px;
+	}
+	#footer{
+		width: 100%;
+		background-color: #e5e5e5;
+		height: 40px;
+		margin: 60 auto 0 0px;
+	}
+	#footer-cont{
+		width: 300px;
+		height: 100%;	
+		margin: 5px auto 0 auto;
+		bottom: 0;
+		padding-top: 2px;
+	}
+	#footer p{
+		color: #4a4a4a;
+		margin-top: 10px;
+		font-weight: 400;
+		text-align: center;
+	}
+	#portfolio{
+		color: #666666;
+	}
+	#content{
+		width: 1200px;	
+		height: 155px;		 
+		margin: 0 auto 0 auto;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		color: #666666;
+	}
+	#content h1{
+		text-align: left;
+		font-size: 60;
+		margin-top: 80px;
+		font-weight: bold;
+		margin-left: 130px;
+	}	
+	#content h2{
+		position: absolute;
+		text-align: left;
+		line-height: px;
+		font-size: 60;
+		margin-top: -92px;
+		margin-left: 410px;
+		font-weight: 100;
+		color: #666666;
+		font-weight: normal;
+		width: 1800px;
+		white-space: nowrap;
+	}	
+	#content h3{
+		position: relative;
+		text-align: justify;
+		line-height: 35px;
+		max-width: 450px;
+		font-size: 23;
+		margin-top: -8px;
+		font-weight: normal;
+		margin-left: 130px;
+		color: #666666;
+	}	
+	.wframe{
+		position: relative;
+		width: 78%;
+		background-color: white;
+		border-radius: 5px; 
+		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.26);
+		margin: 40px auto 0 auto;
+		overflow: auto;
+	}
+	.wframe img{
+		position: relative;
+		float: left;
+		margin-left: 25px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border-radius: 5px; 
+		width: 885px;
+	}
+	a{
+		color: black;
+	}
+}

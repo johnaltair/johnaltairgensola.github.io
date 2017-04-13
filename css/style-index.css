@@ -1,0 +1,285 @@
+body{
+	font-family: "arial";
+	height: 100%;
+	background-color: #e5e5e5;
+}
+@media screen and (max-width: 700px) {
+	#container{
+		margin: 0 auto;
+		background-color: white;
+		margin-left: -8px;
+		margin-right: -8px;
+		text-align: center;
+	}	
+	#header{
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		top: 0;
+	}	
+	#header-cont{
+		width: 100%;
+		height: 100%;	
+		margin: -18px auto 0 auto;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}	
+	#header-img{
+		background-image: url("images/logo.svg");
+		margin: 5px 0 40px 13px;
+		float: left;
+		width: 200px;
+		height: 60px;
+		background-size: cover;
+		position: relative;
+	}	
+	#header-img:hover{
+		background-image: url("images/logo-hov.svg");
+	}	
+	ul.topnav{		
+		list-style-type: none;
+		text-align: center;
+		padding-left: -50;
+		width: 100%;
+		height: 35px;
+		margin-left: -50px;
+		right: 0;
+		position: absolute;
+		top: 74;
+		padding-top: 10px;
+		z-index: 3;
+	}
+	ul.topnave li{
+		
+	}
+	ul.topnav li a{
+		font-size: 0;
+		text-decoration: none;
+		color: white;
+	}	
+	ul.topnav li:not(:first-child) {
+		display: none;
+	}	  
+	ul.topnav li.icon {
+		position: relative;
+		float: right;
+		right: 0;
+		top: -115;
+		display: inline-block;
+		padding: 50px 15px 50px 50px;
+	}	
+	ul.topnav.responsive {
+		position: absolute;
+		height: 145px;
+		background-color: #666666;
+	}	
+	ul.topnav.responsive li a{
+		color: black;
+		font-size: 23;
+		line-height: 30px;
+	}	
+	ul.topnav.responsive li.icon {
+		position: relative;
+		float: right;
+		right: 0;
+		display: inline-block;
+		top:-253;
+		padding: 50px 15px 50px 50px;
+	}	
+	#menu{
+		width: 30px;
+		height: 24px;
+		background-image: url("images/menu.svg");
+		background-size: cover;
+	}	
+	#menu:hover{
+		background-image: url("images/menu-hov.svg");
+	}	
+	ul.topnav.responsive li {
+		float: none;
+		display: inline;
+		text-align: center;
+	}	
+	ul.topnav.responsive li a {
+		display: block;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	#header ul li a:hover{
+		color: white;
+	}
+}
+@media screen and (min-width: 700.01px){
+	#container{
+		margin: 0 auto;
+		margin-left: -8px;
+		margin-right: -8px;
+		background-color: white;
+	}	
+	#header{
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		top: 0;
+	}	
+	#header-cont{
+		width: 650px;
+		height: 100%;	
+		margin: -16px auto 0 auto;
+	}	
+	#header-img{
+		background-image: url("images/logo.svg");
+		margin-top: 23px;
+		float: right;
+		width: 200px;
+		height: 62px;
+		margin-right: 450px;
+		background-size: cover;
+	}
+	#header-img:hover{
+		background-image: url("images/logo-hov.svg");
+	}
+	ul.topnav li {
+		float: left;
+	}	
+	ul.topnav {
+		position: absolute;
+		list-style-type: none;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		overflow: hidden;
+		margin-left: 290px;
+		top:10px;
+	}	
+	ul.topnav li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 25 15px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 20;
+	}	
+	ul.topnav li.icon {
+		display: none;
+	}	
+	ul.topnav li a:hover {
+		color: #666666;
+	}
+}
+@media screen and (min-width: 1000px){
+	#container{
+		margin: 0 auto;
+		margin-left: -8px;
+		margin-right: -8px;
+		background-color: white;
+	}
+	#header{
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		top: 0;
+	}
+	#header-cont{
+		width: 990px;
+		height: 100%;	
+		margin: -16px auto 0 auto;
+	}
+	#header-img{
+		background-image: url("images/logo.svg");
+		margin-top: 22px;
+		float: right;
+		background-size: cover;
+		width: 200px;
+		height: 62px;
+		margin-right: 680px;
+	}
+	#header-img:hover{
+		background-image: url("images/logo-hov.svg");
+	}	
+	ul.topnav li {
+		float: left;
+	}	
+	ul.topnav {
+		position: absolute;
+		list-style-type: none;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		overflow: hidden;
+		margin-left: 450px;
+		top:3px;
+	}	
+	ul.topnav li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 25 20px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 25;
+	}	
+	ul.topnav li.icon {
+		display: none;
+	}	
+	ul.topnav li a:hover {
+		color: #666666;
+	}
+}
+@media screen and (min-width: 1200px){
+	#container{
+		margin: 0 auto;
+		margin-left: -8px;
+		margin-right: -8px;
+		background-color: white;
+	}
+	#header{
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		top: 0;
+	}
+	#header-cont{
+		width: 1050px;
+		height: 100%;	
+		margin: -16px auto 0 auto;
+	}
+	#header-img{
+		background-image: url("images/logo.svg");
+		margin-top: 22px;
+		float: left;
+		background-size: cover;
+		width: 200px;
+		height: 62px;
+		position: absolute;
+	}
+	#header-img:hover{
+		background-image: url("images/logo-hov.svg");
+	}	
+	ul.topnav li {
+		float: left;
+	}
+	ul.topnav {
+		position: absolute;
+		list-style-type: none;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		overflow: hidden;
+		margin-left: 580px;
+		top:3px;
+	}	
+	ul.topnav li a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 25 20px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 25;
+	}
+	ul.topnav li.icon {
+		display: none;
+	}	
+	ul.topnav li a:hover {
+		color: #666666;
+	}
+}
